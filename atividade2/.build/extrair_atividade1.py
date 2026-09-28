@@ -1,5 +1,6 @@
-"""Gera atividade1.py copiando literalmente as definicoes do notebook da Atividade 1."""
-import ast, json
+"""Copia as funções da Atividade 1 do notebook para atividade1.py."""
+import ast
+import json
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -14,24 +15,19 @@ def celula(prefixo):
 
 
 BLOCOS = [
-    ("configuracao dos experimentos", "from sklearn.base import clone", ["N_FOLDS", "N_MAX", "SEMENTE", "ALGORITMOS"]),
-    ("preparacao dos dados e AUC", "def _preparar", ["_preparar", "_preprocessador", "_auc"]),
-    ("meta-caracteristicas do X_base", "import numpy as np", ["_entropia", "_entropia_conjunta", "_discretizar"]),
-    ("meta-caracteristicas do X_base (familias)", "def mf_gerais",
+    ("experimentos", "from sklearn.base import clone", ["N_FOLDS", "N_MAX", "SEMENTE", "ALGORITMOS"]),
+    ("preparação e AUC", "def _preparar", ["_preparar", "_preprocessador", "_auc"]),
+    ("meta-características do X_base", "import numpy as np", ["_entropia", "_entropia_conjunta", "_discretizar"]),
+    (None, "def mf_gerais",
      ["mf_gerais", "mf_balanceamento", "mf_estatisticas", "mf_informacao", "mf_derivadas", "metafeatures"]),
-    ("utilidades do meta-nivel", "from collections import namedtuple", ["Rodada", "_ranquear"]),
-    ("agregacao de rankings", "def ar(d)", ["ar", "mr", "vs"]),
-    ("meta-modelos treinados", "def _floresta", ["_floresta", "reg_p", "reg_r"]),
+    ("meta-nível", "from collections import namedtuple", ["Rodada", "_ranquear"]),
+    ("agregação", "def ar(d)", ["ar", "mr", "vs"]),
+    ("regressores", "def _floresta", ["_floresta", "reg_p", "reg_r"]),
     ("HARRIS", "def _perda_regressao", ["_perda_regressao", "_perda_ranking", "ArvoreHarris", "FlorestaHarris", "harris"]),
-    ("lambdas", "LAMBDAS = ", ["LAMBDAS", "LAMBDA_DC"]),
-    ("diagrama de diferenca critica", "Q_NEMENYI = ", ["Q_NEMENYI", "diagrama_dc"]),
+    (None, "LAMBDAS = ", ["LAMBDAS", "LAMBDA_DC"]),
 ]
 
-CABECALHO = '''"""Codigo da Atividade 1, extraido literalmente de ../coleta_openml.ipynb.
-
-Nada aqui foi reescrito: cada definicao e copiada do notebook da Atividade 1 via ast,
-para que a Atividade 2 rode exatamente o mesmo protocolo. Gerado por .build/extrair_atividade1.py.
-"""
+CABECALHO = '''"""Funções da Atividade 1, copiadas de ../coleta_openml.ipynb por .build/extrair_atividade1.py."""
 from collections import namedtuple
 from functools import partial
 
@@ -53,10 +49,9 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.tree import DecisionTreeClassifier
 '''
 
-partes = [CABECALHO]
-for titulo, prefixo, nomes in BLOCOS:
-    fonte, pendentes = celula(prefixo), list(nomes)
-    partes.append(f"\n\n# ---- {titulo} ----\n")
+
+def definicoes(fonte, nomes):
+    pendentes, trechos = list(nomes), []
     for no in ast.parse(fonte).body:
         if isinstance(no, (ast.FunctionDef, ast.ClassDef)):
             nome = no.name
@@ -65,20 +60,24 @@ for titulo, prefixo, nomes in BLOCOS:
         else:
             continue
         if nome in pendentes:
-            partes.append("\n" + ast.get_source_segment(fonte, no) + "\n")
+            trechos.append("\n" + ast.get_source_segment(fonte, no) + "\n")
             pendentes.remove(nome)
-    assert not pendentes, (titulo, pendentes)
+    assert not pendentes, pendentes
+    return trechos
+
+
+partes = [CABECALHO]
+for titulo, prefixo, nomes in BLOCOS:
+    if titulo:
+        partes.append(f"\n\n# {titulo}\n")
+    partes += definicoes(celula(prefixo), nomes)
 
 cores = celula("import matplotlib.pyplot as plt").splitlines()
-partes.append("\n\n# ---- cores dos graficos ----\n")
+partes.append("\n\n# gráficos\n")
 partes += [l + "\n" for l in cores if l.startswith(("TINTA, TINTA_2", "SERIES = "))]
+partes += definicoes(celula("Q_NEMENYI = "), ["Q_NEMENYI", "diagrama_dc"])
 
-# o diagrama DC usa as cores, entao elas precisam vir antes dele
 texto = "".join(partes)
-bloco_cores = texto[texto.index("\n\n# ---- cores dos graficos ----"):]
-texto = texto[:texto.index("\n\n# ---- cores dos graficos ----")]
-texto = texto.replace("\n\n# ---- diagrama de diferenca critica ----", bloco_cores + "\n\n# ---- diagrama de diferenca critica ----")
-
 destino = RAIZ / "atividade1.py"
 destino.write_text(texto)
 compile(texto, str(destino), "exec")

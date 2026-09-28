@@ -1,8 +1,4 @@
-"""Codigo da Atividade 1, extraido literalmente de ../coleta_openml.ipynb.
-
-Nada aqui foi reescrito: cada definicao e copiada do notebook da Atividade 1 via ast,
-para que a Atividade 2 rode exatamente o mesmo protocolo. Gerado por .build/extrair_atividade1.py.
-"""
+"""Funções da Atividade 1, copiadas de ../coleta_openml.ipynb por .build/extrair_atividade1.py."""
 from collections import namedtuple
 from functools import partial
 
@@ -24,7 +20,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.tree import DecisionTreeClassifier
 
 
-# ---- configuracao dos experimentos ----
+# experimentos
 
 N_FOLDS = 10
 
@@ -42,12 +38,12 @@ ALGORITMOS = {
 }
 
 
-# ---- preparacao dos dados e AUC ----
+# preparação e AUC
 
 def _preparar(X, y):
     if len(y) > N_MAX:
         X, _, y, _ = train_test_split(X, y, train_size=N_MAX, stratify=y, random_state=SEMENTE)
-    frequentes = y.value_counts()  # depois da subamostragem: uma classe rara pode encolher abaixo de N_FOLDS
+    frequentes = y.value_counts()
     y = y[y.isin(frequentes[frequentes >= N_FOLDS].index)]
     X = X.loc[y.index]
     return X.reset_index(drop=True), y.reset_index(drop=True)
@@ -69,7 +65,7 @@ def _auc(y_teste, probabilidades, classes):
                          average="macro", labels=classes)
 
 
-# ---- meta-caracteristicas do X_base ----
+# meta-características do X_base
 
 def _entropia(s):
     p = s.value_counts(normalize=True)
@@ -84,9 +80,6 @@ def _discretizar(coluna, faixas=10):
         codigos = pd.qcut(coluna, faixas, labels=False, duplicates="drop")
         return codigos.fillna(-1).astype("int16")
     return coluna.astype("category").cat.codes.astype("int16")
-
-
-# ---- meta-caracteristicas do X_base (familias) ----
 
 def mf_gerais(X, y):
     n, p = X.shape
@@ -106,7 +99,7 @@ def mf_gerais(X, y):
 
 def mf_balanceamento(y):
     contagem = y.value_counts()
-    contagem = contagem[contagem > 0]  # alvo categorico pode declarar classes sem nenhuma instancia
+    contagem = contagem[contagem > 0]  # categorias sem nenhuma instancia
     return {
         "MajorityClassSize": int(contagem.max()),
         "MinorityClassSize": int(contagem.min()),
@@ -171,7 +164,7 @@ def metafeatures(X, y):
     return mf
 
 
-# ---- utilidades do meta-nivel ----
+# meta-nível
 
 Rodada = namedtuple("Rodada", "Xtr Ptr Rtr Vtr xte")
 
@@ -185,7 +178,7 @@ def _ranquear(v):
     return ranks
 
 
-# ---- agregacao de rankings ----
+# agregação
 
 def ar(d):
     return _ranquear(d.Rtr.mean(axis=0))
@@ -197,7 +190,7 @@ def vs(d):
     return _ranquear(-d.Vtr.sum(axis=0))
 
 
-# ---- meta-modelos treinados ----
+# regressores
 
 def _floresta(d, alvo):
     modelo = RandomForestRegressor(n_estimators=200, min_samples_leaf=3,
@@ -212,7 +205,7 @@ def reg_r(d):
     return _ranquear(_floresta(d, d.Rtr))
 
 
-# ---- HARRIS ----
+# HARRIS
 
 def _perda_regressao(Pm):
     return float(((Pm - Pm.mean(axis=0)) ** 2).mean())
@@ -296,20 +289,14 @@ class FlorestaHarris:
 def harris(d, lam):
     return FlorestaHarris(lam).treinar(d.Xtr, d.Ptr, d.Rtr).prever(d.xte)
 
-
-# ---- lambdas ----
-
 LAMBDAS = [0.0, 0.25, 0.5, 0.75, 1.0]
 
 LAMBDA_DC = 0.5
 
 
-# ---- cores dos graficos ----
+# gráficos
 TINTA, TINTA_2, GRADE, SUPERFICIE = "#0b0b0b", "#52514e", "#e5e4df", "#fcfcfb"
 SERIES = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100"]
-
-
-# ---- diagrama de diferenca critica ----
 
 Q_NEMENYI = {2: 1.960, 3: 2.343, 4: 2.569, 5: 2.728, 6: 2.850,
              7: 2.949, 8: 3.031, 9: 3.102, 10: 3.164}
