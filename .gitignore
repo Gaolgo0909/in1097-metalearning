@@ -1,0 +1,4 @@
+dados_openml/
+__pycache__/
+.ipynb_checkpoints/
+*.docx

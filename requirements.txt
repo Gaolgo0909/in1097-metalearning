@@ -1,0 +1,12 @@
+openml==0.15.1
+pandas==2.2.3
+numpy==2.1.0
+pyarrow==19.0.1
+scikit-learn==1.6.1
+scipy==1.15.2
+matplotlib==3.10.1
+problexity==0.5.11
+threadpoolctl==3.6.0
+nbclient==0.11.0
+nbformat==5.10.4
+ipykernel==6.29.5
