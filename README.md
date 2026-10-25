@@ -9,6 +9,11 @@ scikit-learn e AUC em validação cruzada de 10 folds. Os notebooks já estão c
 |---|---|
 | 1. Meta-dataset e ranking de algoritmos | [`coleta_openml.ipynb`](coleta_openml.ipynb) |
 | 2. Meta-características específicas do domínio | [`atividade2/metacaracteristicas_dominio.ipynb`](atividade2/metacaracteristicas_dominio.ipynb) |
+| 3. Warm-starting da otimização de hiperparâmetros | [`atividade3/warmstart_hpo.ipynb`](atividade3/warmstart_hpo.ipynb) |
+
+A Atividade 3 fixa o hgb e compara formas de começar a busca de hiperparâmetros em 29 desses datasets,
+sobre uma matriz de perdas de 129 configurações × 29 datasets × 5 folds
+([`atividade3/matriz_perdas.csv`](atividade3/matriz_perdas.csv)).
 
 ## Como rodar
 
@@ -21,6 +26,9 @@ pip install -r requirements.txt
 2. `atividade2/metacaracteristicas_dominio.ipynb` precisa de `dados_openml/`. Dá para rodar pelo
    Jupyter ou com `python3 atividade2/.build/executar.py`, que salva as saídas no notebook. Só os
    testes do hgb rodam de novo (uns 25 minutos); o resto vem dos CSVs.
+3. `atividade3/warmstart_hpo.ipynb` só precisa de `dados_openml/` para refazer a matriz de perdas
+   (33 horas de CPU, 98 minutos com 22 processos). Com a matriz e as buscas já gravadas
+   (`perdas_folds.csv`, `buscas.csv`), `python3 atividade3/.build/executar.py` roda tudo em segundos.
 
 A Atividade 2 usa P, R e X_base da Atividade 1 (cópia em `atividade2/base/`) e as funções dela em
 `atividade2/atividade1.py`, e reproduz os resultados da Atividade 1 exatamente.
