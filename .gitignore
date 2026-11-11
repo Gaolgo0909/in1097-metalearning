@@ -2,3 +2,5 @@ dados_openml/
 __pycache__/
 .ipynb_checkpoints/
 *.docx
+dados_fluxos/
+.venv/
