@@ -1,0 +1,25 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+2,1,0.22,random_forest,0.42576927056864156,7.12785530090332,1,0.1174290762453187,0,1794918506.441439,1794918513.6226504,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Default
+8,2,0.0,random_forest,0.6034049964470217,6.2444376945495605,7,0.45450176573802636,0,1794918537.930947,1794918544.2134273,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Random Search
+27,3,0.0,random_forest,0.7123709288134664,6.618829727172852,26,0.6037921185213649,0,1794918783.580559,1794918790.2259672,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],none,Random Search (sorted)
+5,4,0.0,liblinear_svc,0.7219176495025847,4.916647672653198,4,0.6713396270147494,0,1794918521.0515783,1794918525.990402,0.0,StatusType.SUCCESS,[],['polynomial'],weighting,Random Search
+24,5,0.0,random_forest,0.7398225983083483,7.242842674255371,23,0.6481005963710205,0,1794918750.2770424,1794918757.544183,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],none,Random Search (sorted)
+7,6,0.0,libsvm_svc,0.744430687648216,3.091696262359619,6,0.6074444311893364,0,1794918534.0614803,1794918537.1811063,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Random Search
+9,7,0.0,random_forest,0.8265650226957708,6.670591115951538,8,0.7450795715616116,0,1794918547.7712421,1794918554.458611,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],none,Random Search (sorted)
+22,8,0.0,random_forest,0.8582295399081583,4.792661666870117,21,0.7045735111017016,0,1794918707.866225,1794918712.683007,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Random Search (sorted)
+13,9,0.0,random_forest,0.8677558946409122,16.45034623146057,12,0.7068507634303115,0,1794918596.2902713,1794918612.7646754,0.0,StatusType.SUCCESS,[],['no_preprocessing'],weighting,Random Search (sorted)
+21,10,0.78,k_nearest_neighbors,1.6139259452169592,9.093384742736816,20,0.06090901547403478,0,1794918692.3281076,1794918701.4367495,0.0,StatusType.SUCCESS,[],['polynomial'],weighting,Random Search (sorted)
+26,11,0.0,random_forest,1.9448996358367643,3.4276018142700195,25,1.5064856274772798,0,1794918772.6952581,1794918776.1455047,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Local Search
+25,12,0.0,liblinear_svc,1.9575237567282535,1.4008979797363281,24,1.9703497063702167,0,1794918763.7981827,1794918765.2204483,0.0,StatusType.SUCCESS,[],['no_preprocessing'],weighting,Random Search (sorted)
+15,13,0.0,libsvm_svc,2.054458025408288,4.707230806350708,14,2.186488228084158,0,1794918619.4272373,1794918624.1489134,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Random Search (sorted)
+16,14,0.0,passive_aggressive,2.590646011331542,1.0797154903411865,15,2.5906136462020117,0,1794918629.234323,1794918630.328843,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Random Search (sorted)
+17,15,0.0,lda,2.702798699700471,11.207478284835815,16,2.7072907673778817,0,1794918632.0402544,1794918643.274036,0.0,StatusType.SUCCESS,[],['fast_ica'],weighting,Random Search
+18,16,0.0,lda,2.8096100722298476,1.1703898906707764,17,2.817719895715144,0,1794918645.3194425,1794918646.508552,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Random Search
+11,17,0.0,decision_tree,2.9937789965759625,0.8810055255889893,10,2.9849078624550978,0,1794918557.2399118,1794918558.136276,0.0,StatusType.SUCCESS,[],['pca'],weighting,Random Search
+6,18,0.0,mlp,3.0311239387492983,5.214745044708252,5,0.4193691391860631,0,1794918528.2490928,1794918533.4808707,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],weighting,Random Search (sorted)
+14,19,0.0,qda,3.2564555271105333,0.9045040607452393,13,3.256491822404648,0,1794918614.0736713,1794918614.9980717,0.0,StatusType.SUCCESS,[],['pca'],none,Random Search
+10,20,0.0,decision_tree,4.7152916003526615,1.555833101272583,9,0.5717191319537362,0,1794918555.5939555,1794918557.1710987,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],none,Random Search
+20,21,0.0,libsvm_svc,12.643464316382552,23.56071424484253,19,12.636310428581131,0,1794918665.5698917,1794918689.15369,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Random Search (sorted)
+3,22,0.0,passive_aggressive,12.869403710197824,1.623610258102417,2,12.111746341161217,0,1794918515.7106755,1794918517.354879,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],weighting,Random Search (sorted)
+4,23,0.0,k_nearest_neighbors,21.61859828238799,1.572187900543213,3,21.53669532943072,0,1794918519.385415,1794918520.979454,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Random Search (sorted)
+19,24,0.0,gradient_boosting,30.129849259058634,13.143891096115112,18,30.214985546425208,0,1794918648.461049,1794918661.6279786,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],none,Random Search

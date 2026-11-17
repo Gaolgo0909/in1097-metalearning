@@ -1,0 +1,10 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+9,1,0.42,random_forest,0.12395328474354705,15.289602994918823,8,1.9944156361972887e-06,0,1794917804.5121398,1794917819.836742,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Initial design
+8,2,0.04,random_forest,0.1273734795137732,24.101419687271118,7,0.0016733147187875108,0,1794917779.9235327,1794917804.0552084,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Initial design
+13,3,0.18,gradient_boosting,0.12932200393815696,13.102738380432129,12,0.0,0,1794917860.4637136,1794917873.6004686,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Initial design
+2,4,0.0,random_forest,0.13029421074483793,7.655938148498535,1,0.0,0,1794917649.3267577,1794917657.0002773,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+15,5,0.04,gradient_boosting,0.13809036384788365,18.705585479736328,14,0.0,0,1794917890.0164568,1794917908.75486,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Initial design
+14,6,0.22,gradient_boosting,0.14447445336490428,15.238569974899292,13,0.00977662544874347,0,1794917874.1299345,1794917889.3963056,0.0,StatusType.SUCCESS,[],['liblinear_svc_preprocessor'],none,Initial design
+5,7,0.0,extra_trees,0.14531922502990624,9.711120128631592,4,0.0,0,1794917719.417955,1794917729.1612282,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Initial design
+6,8,0.1,extra_trees,0.15395809439244268,19.072800159454346,5,0.051862784204228296,0,1794917729.3995743,1794917748.500591,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+11,9,0.0,random_forest,0.21320721365118112,5.872643709182739,10,0.02745013960909448,0,1794917851.4694834,1794917857.370958,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design

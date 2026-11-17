@@ -1,0 +1,13 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+17,1,0.38,mlp,0.798574106566406,48.736863136291504,16,0.6139809120956194,0,1794870930.0024183,1794870978.7825382,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],none,Initial design
+16,2,0.0,random_forest,0.8036967537096974,31.654943466186523,15,0.41905335155593704,0,1794870897.4631279,1794870929.1421692,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+14,3,0.2,random_forest,0.8043305600719935,16.05125641822815,13,0.19064764492986933,0,1794870841.4908025,1794870857.5659091,0.0,StatusType.SUCCESS,[],['liblinear_svc_preprocessor'],none,Initial design
+2,4,0.0,random_forest,0.8121693196872277,21.47575879096985,1,0.1970606313523169,0,1794870267.3116884,1794870288.8116095,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+4,5,0.14,gradient_boosting,0.8320473063666599,5.962228775024414,3,0.5496867121193808,0,1794870291.0395868,1794870297.021995,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Initial design
+3,6,0.08,gradient_boosting,0.8466496970017695,1.9203767776489258,2,0.6287337905793353,0,1794870288.8721495,1794870290.8098495,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Initial design
+6,7,0.0,random_forest,0.8504256139643434,44.21476078033447,5,0.08543744850198959,0,1794870310.5971699,1794870354.8323166,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Initial design
+10,8,0.0,random_forest,0.8597282100070239,27.207722187042236,9,0.0,0,1794870628.6256673,1794870655.8568804,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],weighting,Initial design
+5,9,0.0,random_forest,0.8743797781637334,12.693859100341797,4,0.0,0,1794870297.3928404,1794870310.1220825,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+11,10,0.2,gradient_boosting,0.8846636604990966,2.4187724590301514,10,0.18486225204303366,0,1794870656.335134,1794870658.7694888,0.0,StatusType.SUCCESS,[],['no_preprocessing'],weighting,Initial design
+19,11,0.0,extra_trees,1.1997592944059183,50.507713079452515,18,0.9042796660638622,0,1794871073.3581417,1794871124.017864,0.0,StatusType.SUCCESS,[],['pca'],weighting,Initial design
+15,12,0.0,gradient_boosting,1.5783456972049508,39.23197317123413,14,1.1115158823788796e-05,0,1794870858.1605337,1794870897.4136744,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],weighting,Initial design

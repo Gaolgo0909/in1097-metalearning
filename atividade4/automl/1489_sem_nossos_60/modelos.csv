@@ -1,0 +1,13 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+3,1,0.7,random_forest,0.037874805849149595,5.046397686004639,2,0.0,0,1794922323.9363601,1794922329.004409,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],weighting,Initial design
+2,2,0.0,random_forest,0.03928121566844722,3.942474842071533,1,0.0,0,1794922319.9350178,1794922323.896825,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+10,3,0.26,gradient_boosting,0.04321040269727616,2.9217529296875,9,0.0,0,1794922347.4310718,1794922350.3654134,0.0,StatusType.SUCCESS,[],['polynomial'],weighting,Initial design
+12,4,0.0,random_forest,0.05230234496344277,2.759704351425171,11,0.011531251796906505,0,1794922352.4425352,1794922355.2216072,0.0,StatusType.SUCCESS,[],['select_rates_classification'],none,Initial design
+4,5,0.0,gradient_boosting,0.054599007462969196,2.0421481132507324,3,0.003331033293082597,0,1794922329.2202594,1794922331.2840002,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+6,6,0.04,gradient_boosting,0.0636909497291358,2.068838119506836,5,0.01934276349836117,0,1794922338.6330576,1794922340.7163887,0.0,StatusType.SUCCESS,[],['polynomial'],none,Initial design
+8,7,0.0,gradient_boosting,0.06376671591468741,2.1206798553466797,7,0.0,0,1794922343.1612194,1794922345.294264,0.0,StatusType.SUCCESS,[],['select_rates_classification'],none,Initial design
+11,8,0.0,gradient_boosting,0.06780600068189557,0.8991882801055908,10,0.01972370766488407,0,1794922350.884762,1794922351.8002286,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],weighting,Initial design
+9,9,0.0,libsvm_svc,0.1176648861613061,1.3034250736236572,8,0.11923006152607651,0,1794922345.6552377,1794922346.9718332,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],weighting,Initial design
+7,10,0.0,gradient_boosting,0.1468336837519415,1.8198151588439941,6,0.03200477258352019,0,1794922340.9664223,1794922342.7995687,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Initial design
+14,11,0.0,libsvm_svc,0.18561768382770782,1.159578800201416,13,0.17737220401357023,0,1794922362.9385326,1794922364.1106389,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+15,12,0.0,sgd,0.20984865704436106,0.7942080497741699,14,0.19219826346961078,0,1794922364.7151768,1794922365.5221863,0.0,StatusType.SUCCESS,[],['fast_ica'],weighting,Initial design

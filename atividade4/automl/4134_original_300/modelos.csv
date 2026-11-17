@@ -1,0 +1,10 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+3,1,0.44000000000000006,random_forest,0.12253094412996735,27.55202078819275,2,2.891902672508273e-05,0,1794917969.9992912,1794917997.5819275,0.0,StatusType.SUCCESS,[],['select_rates_classification'],none,Initial design
+11,2,0.04000000000000001,random_forest,0.12395328474354705,15.293975591659546,10,1.9944156361972887e-06,0,1794918147.5291579,1794918162.8566425,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Initial design
+10,3,0.0,random_forest,0.1273734795137732,22.626490831375122,9,0.0016733147187875108,0,1794918124.4705772,1794918147.1182613,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Initial design
+15,4,0.18000000000000002,gradient_boosting,0.12932200393815696,12.459437131881714,14,0.0,0,1794918203.8897233,1794918216.3786032,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Initial design
+2,5,0.04000000000000001,random_forest,0.13029421074483793,10.019969463348389,1,0.0,0,1794917959.757474,1794917969.824452,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+16,6,0.22000000000000003,gradient_boosting,0.14447445336490428,15.275278806686401,15,0.00977662544874347,0,1794918217.1248965,1794918232.4325266,0.0,StatusType.SUCCESS,[],['liblinear_svc_preprocessor'],none,Initial design
+6,7,0.0,extra_trees,0.14531922502990624,10.32263731956482,5,0.0,0,1794918060.223667,1794918070.5875711,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Initial design
+8,8,0.08000000000000002,extra_trees,0.15395809439244268,19.09443712234497,7,0.051862784204228296,0,1794918073.717203,1794918092.842581,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+13,9,0.0,random_forest,0.21320721365118112,6.256658315658569,12,0.02745013960909448,0,1794918194.6081903,1794918200.8957431,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design

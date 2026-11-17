@@ -1,0 +1,12 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+12,1,0.02,gradient_boosting,0.2730624811592979,11.986541986465454,11,0.050785934710238644,0,1794919595.398313,1794919607.4045587,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+2,2,0.2,random_forest,0.2771821617051735,5.90406608581543,1,0.07001147045955512,0,1794919407.6144896,1794919413.5444856,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+15,3,0.0,random_forest,0.2903570619927888,3.4810943603515625,14,0.0,0,1794919623.766301,1794919627.272635,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+13,4,0.0,random_forest,0.3017062301971967,6.372988224029541,12,0.1746869315885146,0,1794919607.87674,1794919614.2695284,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+14,5,0.3,mlp,0.3128365894736456,8.222801446914673,13,0.13990459263005386,0,1794919614.8744373,1794919623.1189501,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],weighting,Initial design
+16,6,0.0,random_forest,0.42329088651637675,22.1270170211792,15,0.05505864911098063,0,1794919627.950394,1794919650.0972981,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Initial design
+11,7,0.4,gradient_boosting,0.4834855377429538,11.981397867202759,10,9.770033377681222e-06,0,1794919582.9994311,1794919594.999792,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+4,8,0.06,mlp,0.6364878395421496,7.904949188232422,3,0.02324429875850637,0,1794919444.7428997,1794919452.66911,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Initial design
+5,9,0.0,mlp,0.6486788214839025,10.138373851776123,4,0.5868889060233772,0,1794919452.8612092,1794919463.0225568,0.0,StatusType.SUCCESS,[],['liblinear_svc_preprocessor'],none,Initial design
+8,10,0.02,adaboost,0.9439805195960244,22.874372005462646,7,3.879835137218376e-06,0,1794919497.5003438,1794919520.3984122,0.0,StatusType.SUCCESS,[],['no_preprocessing'],weighting,Initial design
+7,11,0.0,passive_aggressive,1.1764046197232776,2.6959407329559326,6,1.164948549170806,0,1794919494.4221396,1794919497.1372132,0.0,StatusType.SUCCESS,[],['liblinear_svc_preprocessor'],none,Initial design

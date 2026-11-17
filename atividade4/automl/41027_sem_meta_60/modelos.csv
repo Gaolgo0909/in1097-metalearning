@@ -1,0 +1,11 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+11,1,0.66,random_forest,0.4287660639008071,4.203138589859009,10,0.2571939846228802,0,1794922123.0277476,1794922127.2446492,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Random Search (sorted)
+2,2,0.34,random_forest,0.43781333283034407,4.307933330535889,1,0.1072296245798552,0,1794922086.4521084,1794922090.7855494,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Default
+5,3,0.0,liblinear_svc,0.682073904825445,0.8700957298278809,4,0.6534210935177684,0,1794922096.6304407,1794922097.52512,0.0,StatusType.SUCCESS,[],['polynomial'],weighting,Random Search
+7,4,0.0,libsvm_svc,0.7490011657729293,3.1143054962158203,6,0.7309428073243419,0,1794922104.899885,1794922108.042909,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Random Search
+8,5,0.0,random_forest,0.8803654061094153,3.101680040359497,7,0.7901649104528574,0,1794922108.2888682,1794922111.4139886,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Random Search
+9,6,0.0,adaboost,1.0105820347639647,4.273084402084351,8,0.9995197665780338,0,1794922114.1452358,1794922118.4311616,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],weighting,Random Search (sorted)
+6,7,0.0,mlp,1.4509119593550963,5.251572132110596,5,0.2932402856345103,0,1794922099.552283,1794922104.8251626,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],weighting,Random Search (sorted)
+10,8,0.0,decision_tree,2.4408095687938234,1.9711318016052246,9,0.3184742542331232,0,1794922118.8022733,1794922120.7859035,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],none,Random Search
+3,9,0.0,passive_aggressive,2.7884598376970495,1.007763147354126,2,2.2345763483318697,0,1794922092.662819,1794922093.6903636,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],weighting,Random Search (sorted)
+4,10,0.0,k_nearest_neighbors,3.1411654763205936,0.9904453754425049,3,3.0826447668916255,0,1794922095.5541754,1794922096.5694764,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Random Search (sorted)

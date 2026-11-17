@@ -1,0 +1,12 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+2,1,0.32,random_forest,0.01958365745151336,4.770023345947266,1,0.0,0,1794922271.1187432,1794922275.9049027,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Default
+12,2,0.44,random_forest,0.02008950031901957,4.293381690979004,11,0.003510104613530407,0,1794922303.025046,1794922307.3366833,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Random Search (sorted)
+5,3,0.0,liblinear_svc,0.03185608278779495,0.8816182613372803,4,0.010207259025774906,0,1794922281.3491344,1794922282.248985,0.0,StatusType.SUCCESS,[],['polynomial'],weighting,Random Search
+9,4,0.16,extra_trees,0.033691538548941136,1.661085605621338,8,0.04085529425307233,0,1794922295.1018233,1794922296.7820554,0.0,StatusType.SUCCESS,[],['select_rates_classification'],none,Random Search (sorted)
+8,5,0.0,random_forest,0.039504907659094535,3.1922078132629395,7,0.006421841688287744,0,1794922289.0630896,1794922292.2804341,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Random Search
+4,6,0.0,k_nearest_neighbors,0.08079501455254212,0.8757801055908203,3,0.022649908839129873,0,1794922280.240219,1794922281.1273346,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Random Search (sorted)
+10,7,0.02,decision_tree,0.08245894260267617,1.0865967273712158,9,0.015005869624837409,0,1794922297.3720446,1794922298.4814665,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],none,Random Search
+7,8,0.0,libsvm_svc,0.08695034655152822,1.1926157474517822,6,0.06342483723925518,0,1794922287.4259124,1794922288.6337087,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Random Search
+6,9,0.0,mlp,0.13328140158898028,2.8511834144592285,5,0.0018051815021677964,0,1794922284.2002065,1794922287.0647895,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],weighting,Random Search (sorted)
+3,10,0.02,passive_aggressive,0.339956997893596,0.8232533931732178,2,0.2851091357673665,0,1794922277.5341744,1794922278.3705595,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],weighting,Random Search (sorted)
+11,11,0.04,decision_tree,0.45412562383645216,0.8022828102111816,10,0.4559359067734887,0,1794922299.1831474,1794922300.0034797,0.0,StatusType.SUCCESS,[],['pca'],weighting,Random Search

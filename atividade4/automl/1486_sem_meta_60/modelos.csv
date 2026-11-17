@@ -1,0 +1,7 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+6,1,0.36,passive_aggressive,0.012797072383133101,2.072300434112549,5,0.0131045534278178,0,1794921912.311915,1794921914.4046164,0.0,StatusType.SUCCESS,[],['select_rates_classification'],none,Random Search (sorted)
+3,2,0.24,gradient_boosting,0.014998481059657731,5.8000807762146,2,0.006717956862262842,0,1794921893.8169708,1794921899.6331038,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Random Search (sorted)
+9,3,0.06,passive_aggressive,0.020808076262056607,1.826324462890625,8,0.02464339746910671,0,1794921925.1219795,1794921926.964924,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],none,Random Search (sorted)
+8,4,0.34,sgd,0.03674077595348668,5.660390853881836,7,0.04114838134972909,0,1794921916.5790944,1794921922.2655017,0.0,StatusType.SUCCESS,[],['no_preprocessing'],weighting,Random Search
+7,5,0.0,gaussian_nb,0.06586469898259106,1.3355884552001953,6,0.07456937234645222,0,1794921914.766137,1794921916.1257083,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Random Search
+5,6,0.0,gaussian_nb,0.1644453336183691,1.2679719924926758,4,0.17170007364130768,0,1794921908.9100978,1794921910.2073708,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Random Search

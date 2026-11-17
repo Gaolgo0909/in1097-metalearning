@@ -1,0 +1,14 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+5,1,0.56,gradient_boosting,0.008193136077364715,13.113219738006592,4,8.529222561559635e-08,0,1794919214.7692723,1794919227.903982,0.0,StatusType.SUCCESS,[],['select_rates_classification'],none,Initial design
+9,2,0.1,gradient_boosting,0.008715623426560626,7.807307481765747,8,2.3967115411860362e-05,0,1794919267.0493515,1794919274.8734472,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+2,3,0.14,random_forest,0.009361876285121973,6.560227155685425,1,8.529222572661865e-08,0,1794919145.9372256,1794919152.5177755,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+13,4,0.0,extra_trees,0.011481360633004312,12.427370071411133,12,2.99375712083938e-05,0,1794919314.182995,1794919326.6310146,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],weighting,Initial design
+14,5,0.1,mlp,0.012376550936539221,9.34720253944397,13,0.00535131953043555,0,1794919327.4575644,1794919336.8289196,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],weighting,Initial design
+16,6,0.0,gradient_boosting,0.012592437364807418,2.4977691173553467,15,0.0015700592900377286,0,1794919368.759679,1794919371.2824311,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],weighting,Initial design
+8,7,0.0,gradient_boosting,0.013117737566488819,4.690321445465088,7,0.0024590601581420124,0,1794919261.8929257,1794919266.6040666,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+11,8,0.02,extra_trees,0.01661200356669701,4.04259729385376,10,0.01386365423623459,0,1794919306.5046792,1794919310.5664487,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],none,Initial design
+17,9,0.02,random_forest,0.019098565163947145,5.592937231063843,16,0.002404984887070527,0,1794919372.2745676,1794919377.889145,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+19,10,0.0,gradient_boosting,0.019280697362388244,5.976293087005615,18,8.725394685504817e-05,0,1794919381.3828816,1794919387.3824406,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Initial design
+18,11,0.0,qda,0.03121070796684211,1.3100028038024902,17,0.03315146756362242,0,1794919378.9374757,1794919380.2632294,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+7,12,0.06,libsvm_svc,0.031258878065657636,2.2937393188476562,6,0.009141279577851158,0,1794919259.2384624,1794919261.5528648,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+12,13,0.0,liblinear_svc,0.08613165274773504,2.2416880130767822,11,0.027047273557243567,0,1794919311.2013848,1794919313.4627545,0.0,StatusType.SUCCESS,[],['kitchen_sinks'],weighting,Initial design

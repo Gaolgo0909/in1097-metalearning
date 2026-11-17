@@ -1,0 +1,16 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+4,1,0.6,gradient_boosting,0.023272423372198925,6.785140752792358,3,0.0,0,1794919834.257919,1794919841.0741634,0.0,StatusType.SUCCESS,[],['select_rates_classification'],none,Initial design
+6,2,0.0,gradient_boosting,0.023540339080373895,6.352825880050659,5,1.0345855037119378e-06,0,1794919844.1248643,1794919850.4964418,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+8,3,0.4,gradient_boosting,0.026787662232910403,3.335775136947632,7,0.0,0,1794919881.9924989,1794919885.3498182,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Initial design
+16,4,0.0,extra_trees,0.026946492898101693,9.882417440414429,15,0.0,0,1794919984.6113992,1794919994.5189228,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],weighting,Initial design
+17,5,0.0,gradient_boosting,0.028757944198203766,1.5644357204437256,16,0.0020069234461904673,0,1794919995.3513284,1794919996.9460835,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],weighting,Initial design
+2,6,0.0,random_forest,0.02985696712311825,18.435301065444946,1,0.0,0,1794919784.6356647,1794919803.09993,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+21,7,0.0,random_forest,0.036097910754932516,28.915517807006836,20,1.0173424119352958e-05,0,1794920039.3148243,1794920068.2511868,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+11,8,0.0,random_forest,0.03624821359917407,20.882777452468872,10,0.0,0,1794919921.6433628,1794919942.548858,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],weighting,Initial design
+9,9,0.0,extra_trees,0.04433969437711027,4.158325433731079,8,0.03153088996424469,0,1794919885.8234963,1794919890.0057347,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],none,Initial design
+13,10,0.0,passive_aggressive,0.044899332626945565,1.9597976207733154,12,0.04285701476560422,0,1794919974.3902888,1794919976.378243,0.0,StatusType.SUCCESS,[],['fast_ica'],weighting,Initial design
+19,11,0.0,sgd,0.04671753511863275,6.200062036514282,18,0.04647064949898472,0,1794920000.6908784,1794920006.9124608,0.0,StatusType.SUCCESS,[],['fast_ica'],weighting,Initial design
+14,12,0.0,liblinear_svc,0.07815890030906258,4.224951505661011,13,0.0720706056325594,0,1794919977.2478194,1794919981.5009983,0.0,StatusType.SUCCESS,[],['kitchen_sinks'],weighting,Initial design
+18,13,0.0,sgd,0.0844005545926223,1.591921091079712,17,0.08263217174671145,0,1794919998.0432832,1794919999.65694,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+5,14,0.0,libsvm_svc,0.11976969198221377,2.454892158508301,4,0.121909520669639,0,1794919841.3356235,1794919843.812491,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+15,15,0.0,qda,0.16506770023856576,0.9303970336914062,14,0.17015957101946677,0,1794919982.5306873,1794919983.4817016,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design

@@ -1,0 +1,15 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+3,1,0.42,gradient_boosting,0.021226759457464568,1.6953585147857666,2,0.0023012216128099052,0,1794920396.7390463,1794920398.4530733,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Initial design
+10,2,0.4,gradient_boosting,0.03635280994865795,1.5637118816375732,9,0.004857327285487476,0,1794920489.3869567,1794920490.97781,0.0,StatusType.SUCCESS,[],['no_preprocessing'],weighting,Initial design
+2,3,0.02,random_forest,0.05961090618825927,4.754453897476196,1,0.019135174661393018,0,1794920391.9062898,1794920396.6800911,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+17,4,0.0,random_forest,0.06580994627926243,6.097359657287598,16,0.042239797396964485,0,1794920623.761334,1794920629.8791852,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+9,5,0.0,random_forest,0.0662034890565331,6.457272291183472,8,0.0,0,1794920482.54689,1794920489.0322406,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],weighting,Initial design
+13,6,0.0,gradient_boosting,0.06947123307508302,4.250369310379028,12,1.035475687262105e-06,0,1794920544.7859104,1794920549.0567849,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],weighting,Initial design
+15,7,0.04,mlp,0.12283030558582603,11.319207191467285,14,0.0682715359108511,0,1794920580.7130682,1794920592.0584295,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],none,Initial design
+4,8,0.0,random_forest,0.13373565786737254,4.536837100982666,3,0.0,0,1794920398.6060169,1794920403.1782615,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+11,9,0.0,gradient_boosting,0.1589748024150242,21.853790760040283,10,0.029405610332896993,0,1794920491.3803618,1794920513.271513,0.0,StatusType.SUCCESS,[],['polynomial'],none,Initial design
+20,10,0.12,adaboost,0.2396861651471553,1.0059406757354736,19,0.0,0,1794920665.3044136,1794920666.332662,0.0,StatusType.SUCCESS,[],['no_preprocessing'],weighting,Initial design
+6,11,0.0,random_forest,0.2914991371802088,11.499360799789429,5,0.039617508872480806,0,1794920434.4923944,1794920446.018949,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Initial design
+7,12,0.0,gradient_boosting,0.36775964696151264,4.84532618522644,6,0.12824924933283258,0,1794920446.2787094,1794920451.1455464,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Initial design
+18,13,0.0,extra_trees,0.5214715525950645,2.9378254413604736,17,0.39345726079785104,0,1794920630.4666212,1794920633.4286816,0.0,StatusType.SUCCESS,[],['pca'],weighting,Initial design
+21,14,0.0,mlp,0.7259487927197874,6.78898811340332,20,0.0615089827584436,0,1794920666.987013,1794920673.7991138,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Initial design

@@ -1,0 +1,4 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+3,1,0.98,extra_trees,0.2921311017511581,2.1391704082489014,2,0.18525765486566925,0,1794921953.5142233,1794921955.666928,0.0,StatusType.SUCCESS,[],['pca'],weighting,Initial design
+9,2,0.0,gaussian_nb,0.42286710606186356,1.865950584411621,8,0.38610821399625045,0,1794921985.0108721,1794921986.8944945,0.0,StatusType.SUCCESS,[],['fast_ica'],weighting,Initial design
+8,3,0.02,gaussian_nb,0.8269194727988317,0.8326771259307861,7,0.7666429493083876,0,1794921983.9991236,1794921984.8454895,0.0,StatusType.SUCCESS,[],['no_preprocessing'],weighting,Initial design

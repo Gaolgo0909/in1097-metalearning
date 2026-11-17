@@ -1,0 +1,2 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+6,1,1.0,adaboost,2.8415466008312773,4.097017288208008,5,2.8404689435193786,0,1794921690.4926178,1794921694.6120281,0.0,StatusType.SUCCESS,[],['fast_ica'],weighting,Initial design

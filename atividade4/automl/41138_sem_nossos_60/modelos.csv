@@ -1,0 +1,2 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+3,1,1.0,gradient_boosting,0.01035236625514413,5.802186965942383,2,0.0,0,1794921959.6171982,1794921965.4349036,0.0,StatusType.SUCCESS,[],['liblinear_svc_preprocessor'],none,Initial design

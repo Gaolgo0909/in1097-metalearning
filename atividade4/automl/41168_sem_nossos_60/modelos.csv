@@ -1,0 +1,2 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+8,1,1.0,gradient_boosting,0.8846636604990966,2.6415321826934814,7,0.18486225204303366,0,1794921827.5146093,1794921830.1777008,0.0,StatusType.SUCCESS,[],['no_preprocessing'],weighting,Initial design

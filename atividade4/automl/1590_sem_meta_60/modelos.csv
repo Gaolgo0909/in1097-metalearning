@@ -1,0 +1,7 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+3,1,0.08,gradient_boosting,0.08845354342125167,4.1375041007995605,2,0.059939978485089584,0,1794921990.9102938,1794921995.0610294,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Random Search (sorted)
+2,2,0.02,random_forest,0.0985307188965655,5.00307035446167,1,0.0,0,1794921984.1767724,1794921989.197706,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Default
+6,3,0.02,passive_aggressive,0.1537087409854253,0.9766497611999512,5,0.1639500603254842,0,1794922006.9893947,1794922007.980029,0.0,StatusType.SUCCESS,[],['select_rates_classification'],none,Random Search (sorted)
+8,4,0.88,sgd,0.15991295892379842,1.4253098964691162,7,0.1556534183835676,0,1794922009.837179,1794922011.2767212,0.0,StatusType.SUCCESS,[],['no_preprocessing'],weighting,Random Search
+7,5,0.0,gaussian_nb,0.16691146805184331,0.9331419467926025,6,0.1721300851056753,0,1794922008.39635,1794922009.3527048,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Random Search
+5,6,0.0,gaussian_nb,0.2252363173886731,0.8869528770446777,4,0.20143052934059102,0,1794922003.8574877,1794922004.7611098,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Random Search

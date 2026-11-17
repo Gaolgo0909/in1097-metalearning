@@ -1,0 +1,8 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+7,1,0.66,libsvm_svc,1.422291194593536,4.944179058074951,6,1.0670139318185274,0,1794921854.6410084,1794921859.611169,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Random Search
+11,2,0.34,decision_tree,1.5420975723529986,0.8112165927886963,10,1.5389291034756885,0,1794921873.6840127,1794921874.516376,0.0,StatusType.SUCCESS,[],['pca'],weighting,Random Search
+6,3,0.0,mlp,2.1198308143523263,2.8986525535583496,5,1.7854302640232331,0,1794921851.6528015,1794921854.5744503,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],weighting,Random Search (sorted)
+10,4,0.0,decision_tree,4.617077896077833,1.418299913406372,9,0.904972188099388,0,1794921872.1708853,1794921873.6119158,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],none,Random Search
+3,5,0.0,passive_aggressive,7.873727708161604,0.9243152141571045,2,7.476104623729558,0,1794921838.2292743,1794921839.1756136,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],weighting,Random Search (sorted)
+4,6,0.0,k_nearest_neighbors,9.072607534517447,1.5812389850616455,3,0.0007860296909445468,0,1794921840.9809535,1794921842.5833187,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Random Search (sorted)
+9,7,0.0,sgd,19.002425350895063,2.814937114715576,8,18.435788000600127,0,1794921869.265145,1794921872.1019218,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],weighting,Random Search (sorted)

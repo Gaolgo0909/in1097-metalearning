@@ -1,0 +1,6 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+2,1,0.7200000000000001,random_forest,0.009361876285121973,41.81201434135437,1,8.529222572661865e-08,0,1794871299.3019571,1794871341.205138,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+8,2,0.08000000000000002,gradient_boosting,0.013117737566488819,77.74230432510376,7,0.0024590601581420124,0,1794871733.899172,1794871812.0291095,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+11,3,0.0,extra_trees,0.01661200356669701,46.36742281913757,10,0.01386365423623459,0,1794872007.546001,1794872054.3976183,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],none,Initial design
+7,4,0.20000000000000004,libsvm_svc,0.031258878065657636,18.433795928955078,6,0.009141279577851158,0,1794871711.8332894,1794871730.4869518,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+12,5,0.0,liblinear_svc,0.08613165274773504,38.29759120941162,11,0.027047273557243567,0,1794872064.4558241,1794872103.0419762,0.0,StatusType.SUCCESS,[],['kitchen_sinks'],weighting,Initial design

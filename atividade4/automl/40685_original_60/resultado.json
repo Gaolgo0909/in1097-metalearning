@@ -1,0 +1,14 @@
+{
+ "variante": "original",
+ "orcamento": 60,
+ "semente": 1,
+ "metrica": "log_loss",
+ "versao": "0.15.0",
+ "tempo_treino": 55.08197579499756,
+ "relogio_pulou": false,
+ "tempo_predicao": 0.06634005899832118,
+ "modelos_avaliados": 9,
+ "modelos_no_ensemble": 1,
+ "estatisticas": "auto-sklearn results:\n  Dataset name: 3f517aa0-e28b-11f1-bc6b-8fd6f5badbcb\n  Metric: log_loss\n  Best validation score: 0.003139\n  Number of target algorithm runs: 12\n  Number of successful target algorithm runs: 9\n  Number of crashed target algorithm runs: 0\n  Number of target algorithms that exceeded the time limit: 3\n  Number of target algorithms that exceeded the memory limit: 0\n",
+ "cpu": 52.074767
+}

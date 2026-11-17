@@ -1,0 +1,5 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+8,1,0.96,mlp,0.4759735369681162,1.7838265895843506,7,0.3660991989190261,0,1794922201.467906,1794922203.266358,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+7,2,0.04,mlp,0.48282462903310974,3.466592788696289,6,0.3976314843718126,0,1794922197.7672095,1794922201.2527394,0.0,StatusType.SUCCESS,[],['liblinear_svc_preprocessor'],weighting,Initial design
+3,3,0.0,libsvm_svc,0.496616354915957,3.8007287979125977,2,0.4569195664908626,0,1794922172.6891878,1794922176.506296,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+9,4,0.0,extra_trees,0.49691396644709807,3.6163623332977295,8,0.008369709500755551,0,1794922203.5645232,1794922207.2019649,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Initial design

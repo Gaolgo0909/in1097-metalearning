@@ -1,0 +1,11 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+5,1,0.24,gradient_boosting,0.08944916536386105,2.9203367233276367,4,0.02685444706163953,0,1794921992.3971756,1794921995.3339171,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+8,2,0.1,gradient_boosting,0.09183991880578957,2.5401971340179443,7,0.028040118597741692,0,1794922007.7704103,1794922010.3260503,0.0,StatusType.SUCCESS,[],['polynomial'],none,Initial design
+6,3,0.14,gradient_boosting,0.09657060050935495,4.630540370941162,5,0.011974479576798314,0,1794921995.6475494,1794922000.2906513,0.0,StatusType.SUCCESS,[],['select_rates_classification'],none,Initial design
+2,4,0.06,random_forest,0.0985307188965655,5.1189470291137695,1,0.0,0,1794921979.7506254,1794921984.894882,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+3,5,0.14,extra_trees,0.10152428261636981,4.469988107681274,2,0.010062340475847753,0,1794921984.9543793,1794921989.442861,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Initial design
+12,6,0.0,random_forest,0.11351232727318572,5.731519937515259,11,0.0,0,1794922017.7604744,1794922023.5140278,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],weighting,Initial design
+9,7,0.0,sgd,0.12067552574512075,1.148285150527954,8,0.11031257031680297,0,1794922010.9062636,1794922012.0747795,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+4,8,0.04,gradient_boosting,0.12850614945282157,2.398949146270752,3,0.018516606761769028,0,1794921989.6686687,1794921992.0872505,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Initial design
+11,9,0.12,libsvm_svc,0.1292803469665641,2.7787702083587646,10,0.1027412488856847,0,1794922014.32535,1794922017.11918,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+10,10,0.16,qda,0.15334153890766045,0.9399092197418213,9,0.1499637435332437,0,1794922012.696223,1794922013.649891,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design

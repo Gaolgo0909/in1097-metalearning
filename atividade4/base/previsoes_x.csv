@@ -1,0 +1,529 @@
+variante,abordagem,did,nome,logreg,nb,knn,tree,rf,hgb
+base,AR,6,letter,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,28,optdigits,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,30,page-blocks,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,32,pendigits,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,44,spambase,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,60,waveform-5000,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,151,electricity,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,182,satimage,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,183,abalone,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,300,isolet,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,554,mnist_784,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,1053,jm1,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,1120,MagicTelescope,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,1461,bank-marketing,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,1476,gas-drift,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,1478,har,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,1486,nomao,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,1489,phoneme,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,1497,wall-robot-navigation,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,1590,adult,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,4134,Bioresponse,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,4534,PhishingWebsites,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,4538,GesturePhaseSegmentationProcessed,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,23517,numerai28.6,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,40668,connect-4,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,40685,shuttle,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,40701,churn,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,40996,Fashion-MNIST,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,41027,jungle_chess_2pcs_raw_endgame_complete,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,41138,APSFailure,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,41146,sylvine,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,41150,MiniBooNE,3.0,5.0,4.0,6.0,2.0,1.0
+base,AR,41168,jannis,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-P,6,letter,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-P,28,optdigits,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-P,30,page-blocks,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-P,32,pendigits,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-P,44,spambase,4.0,6.0,3.0,5.0,1.0,2.0
+base,reg-P,60,waveform-5000,4.0,6.0,3.0,5.0,1.0,2.0
+base,reg-P,151,electricity,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-P,182,satimage,4.0,6.0,3.0,5.0,1.0,2.0
+base,reg-P,183,abalone,3.0,6.0,2.0,5.0,1.0,4.0
+base,reg-P,300,isolet,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-P,554,mnist_784,3.0,6.0,4.0,5.0,1.0,2.0
+base,reg-P,1053,jm1,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-P,1120,MagicTelescope,4.0,6.0,3.0,5.0,1.0,2.0
+base,reg-P,1461,bank-marketing,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-P,1476,gas-drift,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-P,1478,har,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-P,1486,nomao,3.0,6.0,4.0,5.0,1.0,2.0
+base,reg-P,1489,phoneme,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-P,1497,wall-robot-navigation,2.0,5.0,4.0,6.0,1.0,3.0
+base,reg-P,1590,adult,4.0,6.0,3.0,5.0,1.0,2.0
+base,reg-P,4134,Bioresponse,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-P,4534,PhishingWebsites,3.0,6.0,4.0,5.0,1.0,2.0
+base,reg-P,4538,GesturePhaseSegmentationProcessed,3.0,6.0,4.0,5.0,1.0,2.0
+base,reg-P,23517,numerai28.6,3.0,6.0,4.0,5.0,2.0,1.0
+base,reg-P,40668,connect-4,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-P,40685,shuttle,3.0,6.0,4.0,5.0,1.0,2.0
+base,reg-P,40701,churn,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-P,40996,Fashion-MNIST,3.0,6.0,4.0,5.0,1.0,2.0
+base,reg-P,41027,jungle_chess_2pcs_raw_endgame_complete,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-P,41138,APSFailure,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-P,41146,sylvine,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-P,41150,MiniBooNE,4.0,5.0,3.0,6.0,1.0,2.0
+base,reg-P,41168,jannis,3.0,6.0,4.0,5.0,1.0,2.0
+base,reg-R,6,letter,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,28,optdigits,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,30,page-blocks,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-R,32,pendigits,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,44,spambase,3.0,6.0,4.0,5.0,2.0,1.0
+base,reg-R,60,waveform-5000,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,151,electricity,4.0,6.0,3.0,5.0,1.0,2.0
+base,reg-R,182,satimage,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,183,abalone,4.0,5.0,3.0,6.0,1.0,2.0
+base,reg-R,300,isolet,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-R,554,mnist_784,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,1053,jm1,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,1120,MagicTelescope,4.0,5.0,3.0,6.0,2.0,1.0
+base,reg-R,1461,bank-marketing,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,1476,gas-drift,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,1478,har,4.0,6.0,3.0,5.0,2.0,1.0
+base,reg-R,1486,nomao,4.0,6.0,3.0,5.0,2.0,1.0
+base,reg-R,1489,phoneme,4.0,5.0,3.0,6.0,2.0,1.0
+base,reg-R,1497,wall-robot-navigation,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-R,1590,adult,4.0,5.0,3.0,6.0,2.0,1.0
+base,reg-R,4134,Bioresponse,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,4534,PhishingWebsites,3.0,6.0,4.0,5.0,2.0,1.0
+base,reg-R,4538,GesturePhaseSegmentationProcessed,3.0,6.0,4.0,5.0,2.0,1.0
+base,reg-R,23517,numerai28.6,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,40668,connect-4,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,40685,shuttle,2.0,5.0,4.0,6.0,1.0,3.0
+base,reg-R,40701,churn,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,40996,Fashion-MNIST,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,41027,jungle_chess_2pcs_raw_endgame_complete,4.0,6.0,3.0,5.0,1.0,2.0
+base,reg-R,41138,APSFailure,3.0,5.0,4.0,6.0,1.0,2.0
+base,reg-R,41146,sylvine,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,41150,MiniBooNE,3.0,5.0,4.0,6.0,2.0,1.0
+base,reg-R,41168,jannis,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,6,letter,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,28,optdigits,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,30,page-blocks,3.0,5.0,4.0,6.0,1.0,2.0
+base,HARRIS,32,pendigits,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,44,spambase,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,60,waveform-5000,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,151,electricity,4.0,6.0,3.0,5.0,2.0,1.0
+base,HARRIS,182,satimage,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,183,abalone,4.0,5.0,3.0,6.0,1.0,2.0
+base,HARRIS,300,isolet,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,554,mnist_784,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,1053,jm1,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,1120,MagicTelescope,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,1461,bank-marketing,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,1476,gas-drift,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,1478,har,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,1486,nomao,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,1489,phoneme,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,1497,wall-robot-navigation,3.0,5.0,4.0,6.0,1.0,2.0
+base,HARRIS,1590,adult,4.0,5.0,3.0,6.0,2.0,1.0
+base,HARRIS,4134,Bioresponse,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,4534,PhishingWebsites,3.0,6.0,4.0,5.0,2.0,1.0
+base,HARRIS,4538,GesturePhaseSegmentationProcessed,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,23517,numerai28.6,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,40668,connect-4,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,40685,shuttle,3.0,5.0,4.0,6.0,1.0,2.0
+base,HARRIS,40701,churn,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,40996,Fashion-MNIST,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,41027,jungle_chess_2pcs_raw_endgame_complete,3.0,5.0,4.0,6.0,1.0,2.0
+base,HARRIS,41138,APSFailure,3.0,5.0,4.0,6.0,1.0,2.0
+base,HARRIS,41146,sylvine,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,41150,MiniBooNE,3.0,5.0,4.0,6.0,2.0,1.0
+base,HARRIS,41168,jannis,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-P,6,letter,3.0,5.0,2.0,6.0,1.0,4.0
+base + domínio,reg-P,28,optdigits,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,reg-P,30,page-blocks,4.0,6.0,3.0,5.0,1.0,2.0
+base + domínio,reg-P,32,pendigits,3.0,5.0,2.0,6.0,1.0,4.0
+base + domínio,reg-P,44,spambase,3.0,6.0,4.0,5.0,1.0,2.0
+base + domínio,reg-P,60,waveform-5000,3.0,6.0,4.0,5.0,2.0,1.0
+base + domínio,reg-P,151,electricity,4.0,6.0,3.0,5.0,1.0,2.0
+base + domínio,reg-P,182,satimage,4.0,6.0,3.0,5.0,1.0,2.0
+base + domínio,reg-P,183,abalone,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-P,300,isolet,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,reg-P,554,mnist_784,3.0,6.0,4.0,5.0,1.0,2.0
+base + domínio,reg-P,1053,jm1,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-P,1120,MagicTelescope,4.0,6.0,3.0,5.0,2.0,1.0
+base + domínio,reg-P,1461,bank-marketing,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,reg-P,1476,gas-drift,2.0,5.0,3.0,6.0,1.0,4.0
+base + domínio,reg-P,1478,har,3.0,6.0,4.0,5.0,1.0,2.0
+base + domínio,reg-P,1486,nomao,3.0,6.0,2.0,5.0,1.0,4.0
+base + domínio,reg-P,1489,phoneme,3.0,6.0,4.0,5.0,1.0,2.0
+base + domínio,reg-P,1497,wall-robot-navigation,2.0,5.0,3.0,6.0,1.0,4.0
+base + domínio,reg-P,1590,adult,4.0,6.0,3.0,5.0,2.0,1.0
+base + domínio,reg-P,4134,Bioresponse,4.0,6.0,3.0,5.0,2.0,1.0
+base + domínio,reg-P,4534,PhishingWebsites,3.0,6.0,4.0,5.0,1.0,2.0
+base + domínio,reg-P,4538,GesturePhaseSegmentationProcessed,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,reg-P,23517,numerai28.6,3.0,6.0,4.0,5.0,2.0,1.0
+base + domínio,reg-P,40668,connect-4,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,reg-P,40685,shuttle,4.0,6.0,3.0,5.0,1.0,2.0
+base + domínio,reg-P,40701,churn,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,reg-P,40996,Fashion-MNIST,4.0,6.0,3.0,5.0,2.0,1.0
+base + domínio,reg-P,41027,jungle_chess_2pcs_raw_endgame_complete,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,reg-P,41138,APSFailure,3.0,6.0,4.0,5.0,1.0,2.0
+base + domínio,reg-P,41146,sylvine,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,reg-P,41150,MiniBooNE,4.0,5.0,3.0,6.0,1.0,2.0
+base + domínio,reg-P,41168,jannis,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,reg-R,6,letter,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,28,optdigits,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,30,page-blocks,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,reg-R,32,pendigits,4.0,5.0,3.0,6.0,2.0,1.0
+base + domínio,reg-R,44,spambase,3.0,6.0,4.0,5.0,2.0,1.0
+base + domínio,reg-R,60,waveform-5000,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,151,electricity,4.0,6.0,3.0,5.0,1.0,2.0
+base + domínio,reg-R,182,satimage,4.0,5.0,3.0,6.0,2.0,1.0
+base + domínio,reg-R,183,abalone,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,reg-R,300,isolet,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,554,mnist_784,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,1053,jm1,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,1120,MagicTelescope,4.0,6.0,3.0,5.0,2.0,1.0
+base + domínio,reg-R,1461,bank-marketing,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,1476,gas-drift,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,1478,har,4.0,6.0,3.0,5.0,2.0,1.0
+base + domínio,reg-R,1486,nomao,4.0,6.0,3.0,5.0,2.0,1.0
+base + domínio,reg-R,1489,phoneme,4.0,6.0,3.0,5.0,2.0,1.0
+base + domínio,reg-R,1497,wall-robot-navigation,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,1590,adult,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,4134,Bioresponse,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,4534,PhishingWebsites,3.0,6.0,4.0,5.0,2.0,1.0
+base + domínio,reg-R,4538,GesturePhaseSegmentationProcessed,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,23517,numerai28.6,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,40668,connect-4,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,40685,shuttle,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,reg-R,40701,churn,4.0,5.0,3.0,6.0,2.0,1.0
+base + domínio,reg-R,40996,Fashion-MNIST,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,41027,jungle_chess_2pcs_raw_endgame_complete,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,41138,APSFailure,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,reg-R,41146,sylvine,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,reg-R,41150,MiniBooNE,3.0,6.0,4.0,5.0,2.0,1.0
+base + domínio,reg-R,41168,jannis,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,HARRIS,6,letter,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,28,optdigits,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,30,page-blocks,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,HARRIS,32,pendigits,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,44,spambase,3.0,6.0,4.0,5.0,2.0,1.0
+base + domínio,HARRIS,60,waveform-5000,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,151,electricity,4.0,6.0,3.0,5.0,1.0,2.0
+base + domínio,HARRIS,182,satimage,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,183,abalone,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,HARRIS,300,isolet,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,554,mnist_784,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,1053,jm1,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,1120,MagicTelescope,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,1461,bank-marketing,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,1476,gas-drift,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,1478,har,4.0,6.0,3.0,5.0,2.0,1.0
+base + domínio,HARRIS,1486,nomao,4.0,5.0,3.0,6.0,2.0,1.0
+base + domínio,HARRIS,1489,phoneme,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,1497,wall-robot-navigation,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,1590,adult,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,4134,Bioresponse,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,4534,PhishingWebsites,3.0,6.0,4.0,5.0,2.0,1.0
+base + domínio,HARRIS,4538,GesturePhaseSegmentationProcessed,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,23517,numerai28.6,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,40668,connect-4,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,40685,shuttle,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,HARRIS,40701,churn,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,40996,Fashion-MNIST,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,41027,jungle_chess_2pcs_raw_endgame_complete,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,HARRIS,41138,APSFailure,3.0,5.0,4.0,6.0,1.0,2.0
+base + domínio,HARRIS,41146,sylvine,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,41150,MiniBooNE,3.0,5.0,4.0,6.0,2.0,1.0
+base + domínio,HARRIS,41168,jannis,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-P,6,letter,4.0,6.0,3.0,5.0,1.0,2.0
+base + complexidade,reg-P,28,optdigits,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-P,30,page-blocks,3.0,6.0,4.0,5.0,1.0,2.0
+base + complexidade,reg-P,32,pendigits,3.0,5.0,2.0,6.0,1.0,4.0
+base + complexidade,reg-P,44,spambase,3.0,6.0,4.0,5.0,1.0,2.0
+base + complexidade,reg-P,60,waveform-5000,3.0,6.0,4.0,5.0,1.0,2.0
+base + complexidade,reg-P,151,electricity,3.0,6.0,4.0,5.0,2.0,1.0
+base + complexidade,reg-P,182,satimage,3.0,6.0,2.0,5.0,1.0,4.0
+base + complexidade,reg-P,183,abalone,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-P,300,isolet,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-P,554,mnist_784,3.0,6.0,4.0,5.0,1.0,2.0
+base + complexidade,reg-P,1053,jm1,3.0,6.0,4.0,5.0,2.0,1.0
+base + complexidade,reg-P,1120,MagicTelescope,4.0,6.0,3.0,5.0,2.0,1.0
+base + complexidade,reg-P,1461,bank-marketing,3.0,6.0,4.0,5.0,1.0,2.0
+base + complexidade,reg-P,1476,gas-drift,2.0,5.0,4.0,6.0,1.0,3.0
+base + complexidade,reg-P,1478,har,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-P,1486,nomao,3.0,6.0,4.0,5.0,1.0,2.0
+base + complexidade,reg-P,1489,phoneme,3.0,6.0,4.0,5.0,1.0,2.0
+base + complexidade,reg-P,1497,wall-robot-navigation,4.0,6.0,3.0,5.0,1.0,2.0
+base + complexidade,reg-P,1590,adult,3.0,6.0,4.0,5.0,1.0,2.0
+base + complexidade,reg-P,4134,Bioresponse,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-P,4534,PhishingWebsites,3.0,6.0,4.0,5.0,1.0,2.0
+base + complexidade,reg-P,4538,GesturePhaseSegmentationProcessed,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-P,23517,numerai28.6,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-P,40668,connect-4,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-P,40685,shuttle,3.0,6.0,4.0,5.0,1.0,2.0
+base + complexidade,reg-P,40701,churn,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-P,40996,Fashion-MNIST,3.0,6.0,4.0,5.0,1.0,2.0
+base + complexidade,reg-P,41027,jungle_chess_2pcs_raw_endgame_complete,3.0,6.0,4.0,5.0,1.0,2.0
+base + complexidade,reg-P,41138,APSFailure,2.0,6.0,4.0,5.0,1.0,3.0
+base + complexidade,reg-P,41146,sylvine,3.0,6.0,4.0,5.0,2.0,1.0
+base + complexidade,reg-P,41150,MiniBooNE,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-P,41168,jannis,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-R,6,letter,4.0,5.0,3.0,6.0,2.0,1.0
+base + complexidade,reg-R,28,optdigits,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,reg-R,30,page-blocks,4.0,6.0,3.0,5.0,1.0,2.0
+base + complexidade,reg-R,32,pendigits,4.0,5.0,3.0,6.0,2.0,1.0
+base + complexidade,reg-R,44,spambase,4.0,6.0,3.0,5.0,2.0,1.0
+base + complexidade,reg-R,60,waveform-5000,3.0,4.0,5.0,6.0,2.0,1.0
+base + complexidade,reg-R,151,electricity,4.0,5.0,3.0,6.0,1.0,2.0
+base + complexidade,reg-R,182,satimage,4.0,5.0,3.0,6.0,2.0,1.0
+base + complexidade,reg-R,183,abalone,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-R,300,isolet,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,reg-R,554,mnist_784,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,reg-R,1053,jm1,4.0,6.0,3.0,5.0,2.0,1.0
+base + complexidade,reg-R,1120,MagicTelescope,4.0,6.0,3.0,5.0,1.0,2.0
+base + complexidade,reg-R,1461,bank-marketing,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,reg-R,1476,gas-drift,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,reg-R,1478,har,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,reg-R,1486,nomao,4.0,6.0,3.0,5.0,2.0,1.0
+base + complexidade,reg-R,1489,phoneme,4.0,6.0,3.0,5.0,2.0,1.0
+base + complexidade,reg-R,1497,wall-robot-navigation,4.0,5.0,3.0,6.0,1.0,2.0
+base + complexidade,reg-R,1590,adult,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,reg-R,4134,Bioresponse,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,reg-R,4534,PhishingWebsites,3.0,6.0,4.0,5.0,2.0,1.0
+base + complexidade,reg-R,4538,GesturePhaseSegmentationProcessed,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,reg-R,23517,numerai28.6,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,reg-R,40668,connect-4,1.0,4.0,5.0,6.0,3.0,2.0
+base + complexidade,reg-R,40685,shuttle,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-R,40701,churn,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,reg-R,40996,Fashion-MNIST,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,reg-R,41027,jungle_chess_2pcs_raw_endgame_complete,4.0,6.0,3.0,5.0,1.0,2.0
+base + complexidade,reg-R,41138,APSFailure,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,reg-R,41146,sylvine,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,reg-R,41150,MiniBooNE,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,reg-R,41168,jannis,3.0,4.0,5.0,6.0,2.0,1.0
+base + complexidade,HARRIS,6,letter,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,28,optdigits,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,30,page-blocks,4.0,5.0,3.0,6.0,1.0,2.0
+base + complexidade,HARRIS,32,pendigits,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,44,spambase,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,60,waveform-5000,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,151,electricity,4.0,5.0,3.0,6.0,2.0,1.0
+base + complexidade,HARRIS,182,satimage,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,183,abalone,4.0,5.0,3.0,6.0,1.0,2.0
+base + complexidade,HARRIS,300,isolet,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,554,mnist_784,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,1053,jm1,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,1120,MagicTelescope,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,1461,bank-marketing,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,1476,gas-drift,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,1478,har,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,1486,nomao,3.0,6.0,4.0,5.0,2.0,1.0
+base + complexidade,HARRIS,1489,phoneme,4.0,6.0,3.0,5.0,2.0,1.0
+base + complexidade,HARRIS,1497,wall-robot-navigation,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,1590,adult,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,4134,Bioresponse,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,4534,PhishingWebsites,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,4538,GesturePhaseSegmentationProcessed,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,23517,numerai28.6,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,40668,connect-4,3.0,4.0,5.0,6.0,2.0,1.0
+base + complexidade,HARRIS,40685,shuttle,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,HARRIS,40701,churn,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,40996,Fashion-MNIST,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,41027,jungle_chess_2pcs_raw_endgame_complete,3.0,6.0,4.0,5.0,1.0,2.0
+base + complexidade,HARRIS,41138,APSFailure,3.0,5.0,4.0,6.0,1.0,2.0
+base + complexidade,HARRIS,41146,sylvine,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,41150,MiniBooNE,3.0,5.0,4.0,6.0,2.0,1.0
+base + complexidade,HARRIS,41168,jannis,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-P,6,letter,4.0,6.0,3.0,5.0,1.0,2.0
+estendido,reg-P,28,optdigits,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,reg-P,30,page-blocks,4.0,6.0,3.0,5.0,1.0,2.0
+estendido,reg-P,32,pendigits,3.0,5.0,2.0,6.0,1.0,4.0
+estendido,reg-P,44,spambase,4.0,6.0,3.0,5.0,1.0,2.0
+estendido,reg-P,60,waveform-5000,3.0,6.0,4.0,5.0,1.0,2.0
+estendido,reg-P,151,electricity,4.0,6.0,3.0,5.0,1.0,2.0
+estendido,reg-P,182,satimage,4.0,6.0,2.0,5.0,1.0,3.0
+estendido,reg-P,183,abalone,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-P,300,isolet,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,reg-P,554,mnist_784,2.0,5.0,4.0,6.0,1.0,3.0
+estendido,reg-P,1053,jm1,3.0,6.0,4.0,5.0,2.0,1.0
+estendido,reg-P,1120,MagicTelescope,4.0,6.0,3.0,5.0,2.0,1.0
+estendido,reg-P,1461,bank-marketing,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,reg-P,1476,gas-drift,2.0,5.0,3.0,6.0,1.0,4.0
+estendido,reg-P,1478,har,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,reg-P,1486,nomao,3.0,6.0,2.0,5.0,1.0,4.0
+estendido,reg-P,1489,phoneme,3.0,6.0,4.0,5.0,1.0,2.0
+estendido,reg-P,1497,wall-robot-navigation,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,reg-P,1590,adult,4.0,6.0,3.0,5.0,2.0,1.0
+estendido,reg-P,4134,Bioresponse,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-P,4534,PhishingWebsites,3.0,6.0,4.0,5.0,1.0,2.0
+estendido,reg-P,4538,GesturePhaseSegmentationProcessed,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,reg-P,23517,numerai28.6,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,reg-P,40668,connect-4,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,reg-P,40685,shuttle,4.0,6.0,3.0,5.0,1.0,2.0
+estendido,reg-P,40701,churn,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,reg-P,40996,Fashion-MNIST,4.0,6.0,3.0,5.0,2.0,1.0
+estendido,reg-P,41027,jungle_chess_2pcs_raw_endgame_complete,3.0,6.0,4.0,5.0,2.0,1.0
+estendido,reg-P,41138,APSFailure,3.0,6.0,4.0,5.0,1.0,2.0
+estendido,reg-P,41146,sylvine,3.0,6.0,4.0,5.0,1.0,2.0
+estendido,reg-P,41150,MiniBooNE,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,reg-P,41168,jannis,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,reg-R,6,letter,4.0,5.0,3.0,6.0,2.0,1.0
+estendido,reg-R,28,optdigits,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-R,30,page-blocks,4.0,6.0,3.0,5.0,1.0,2.0
+estendido,reg-R,32,pendigits,4.0,5.0,3.0,6.0,2.0,1.0
+estendido,reg-R,44,spambase,4.0,6.0,3.0,5.0,2.0,1.0
+estendido,reg-R,60,waveform-5000,3.0,4.0,5.0,6.0,2.0,1.0
+estendido,reg-R,151,electricity,4.0,6.0,3.0,5.0,1.0,2.0
+estendido,reg-R,182,satimage,4.0,5.0,3.0,6.0,2.0,1.0
+estendido,reg-R,183,abalone,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,reg-R,300,isolet,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-R,554,mnist_784,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-R,1053,jm1,4.0,6.0,3.0,5.0,2.0,1.0
+estendido,reg-R,1120,MagicTelescope,4.0,6.0,3.0,5.0,1.0,2.0
+estendido,reg-R,1461,bank-marketing,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-R,1476,gas-drift,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-R,1478,har,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-R,1486,nomao,4.0,6.0,3.0,5.0,2.0,1.0
+estendido,reg-R,1489,phoneme,4.0,6.0,3.0,5.0,2.0,1.0
+estendido,reg-R,1497,wall-robot-navigation,4.0,5.0,3.0,6.0,2.0,1.0
+estendido,reg-R,1590,adult,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-R,4134,Bioresponse,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-R,4534,PhishingWebsites,3.0,6.0,4.0,5.0,2.0,1.0
+estendido,reg-R,4538,GesturePhaseSegmentationProcessed,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-R,23517,numerai28.6,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-R,40668,connect-4,1.0,4.0,5.0,6.0,3.0,2.0
+estendido,reg-R,40685,shuttle,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,reg-R,40701,churn,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-R,40996,Fashion-MNIST,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-R,41027,jungle_chess_2pcs_raw_endgame_complete,4.0,6.0,3.0,5.0,1.0,2.0
+estendido,reg-R,41138,APSFailure,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,reg-R,41146,sylvine,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,reg-R,41150,MiniBooNE,3.0,6.0,4.0,5.0,2.0,1.0
+estendido,reg-R,41168,jannis,3.0,4.0,5.0,6.0,2.0,1.0
+estendido,HARRIS,6,letter,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,28,optdigits,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,30,page-blocks,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,HARRIS,32,pendigits,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,HARRIS,44,spambase,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,60,waveform-5000,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,151,electricity,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,182,satimage,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,183,abalone,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,HARRIS,300,isolet,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,554,mnist_784,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,1053,jm1,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,1120,MagicTelescope,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,1461,bank-marketing,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,1476,gas-drift,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,1478,har,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,1486,nomao,3.0,6.0,4.0,5.0,2.0,1.0
+estendido,HARRIS,1489,phoneme,4.0,6.0,3.0,5.0,2.0,1.0
+estendido,HARRIS,1497,wall-robot-navigation,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,1590,adult,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,4134,Bioresponse,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,4534,PhishingWebsites,3.0,6.0,4.0,5.0,2.0,1.0
+estendido,HARRIS,4538,GesturePhaseSegmentationProcessed,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,23517,numerai28.6,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,40668,connect-4,3.0,4.0,5.0,6.0,2.0,1.0
+estendido,HARRIS,40685,shuttle,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,HARRIS,40701,churn,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,40996,Fashion-MNIST,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,41027,jungle_chess_2pcs_raw_endgame_complete,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,HARRIS,41138,APSFailure,3.0,5.0,4.0,6.0,1.0,2.0
+estendido,HARRIS,41146,sylvine,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,41150,MiniBooNE,3.0,5.0,4.0,6.0,2.0,1.0
+estendido,HARRIS,41168,jannis,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-P,6,letter,4.0,6.0,3.0,5.0,1.0,2.0
+filtrado,reg-P,28,optdigits,2.0,5.0,4.0,6.0,1.0,3.0
+filtrado,reg-P,30,page-blocks,4.0,6.0,3.0,5.0,1.0,2.0
+filtrado,reg-P,32,pendigits,3.0,5.0,2.0,6.0,1.0,4.0
+filtrado,reg-P,44,spambase,4.0,6.0,3.0,5.0,1.0,2.0
+filtrado,reg-P,60,waveform-5000,3.0,6.0,4.0,5.0,1.0,2.0
+filtrado,reg-P,151,electricity,4.0,6.0,3.0,5.0,1.0,2.0
+filtrado,reg-P,182,satimage,4.0,6.0,3.0,5.0,1.0,2.0
+filtrado,reg-P,183,abalone,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-P,300,isolet,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,reg-P,554,mnist_784,2.0,6.0,4.0,5.0,1.0,3.0
+filtrado,reg-P,1053,jm1,3.0,6.0,4.0,5.0,2.0,1.0
+filtrado,reg-P,1120,MagicTelescope,4.0,6.0,3.0,5.0,2.0,1.0
+filtrado,reg-P,1461,bank-marketing,3.0,6.0,4.0,5.0,1.0,2.0
+filtrado,reg-P,1476,gas-drift,3.0,5.0,2.0,6.0,1.0,4.0
+filtrado,reg-P,1478,har,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,reg-P,1486,nomao,4.0,6.0,3.0,5.0,1.0,2.0
+filtrado,reg-P,1489,phoneme,3.0,6.0,4.0,5.0,1.0,2.0
+filtrado,reg-P,1497,wall-robot-navigation,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,reg-P,1590,adult,4.0,6.0,3.0,5.0,2.0,1.0
+filtrado,reg-P,4134,Bioresponse,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-P,4534,PhishingWebsites,3.0,6.0,4.0,5.0,1.0,2.0
+filtrado,reg-P,4538,GesturePhaseSegmentationProcessed,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,reg-P,23517,numerai28.6,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,reg-P,40668,connect-4,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,reg-P,40685,shuttle,4.0,6.0,3.0,5.0,1.0,2.0
+filtrado,reg-P,40701,churn,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,reg-P,40996,Fashion-MNIST,4.0,6.0,3.0,5.0,1.0,2.0
+filtrado,reg-P,41027,jungle_chess_2pcs_raw_endgame_complete,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,reg-P,41138,APSFailure,3.0,6.0,4.0,5.0,1.0,2.0
+filtrado,reg-P,41146,sylvine,3.0,6.0,4.0,5.0,2.0,1.0
+filtrado,reg-P,41150,MiniBooNE,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,reg-P,41168,jannis,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,reg-R,6,letter,4.0,5.0,3.0,6.0,2.0,1.0
+filtrado,reg-R,28,optdigits,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-R,30,page-blocks,4.0,6.0,3.0,5.0,1.0,2.0
+filtrado,reg-R,32,pendigits,4.0,5.0,3.0,6.0,2.0,1.0
+filtrado,reg-R,44,spambase,4.0,6.0,3.0,5.0,2.0,1.0
+filtrado,reg-R,60,waveform-5000,3.0,4.0,5.0,6.0,2.0,1.0
+filtrado,reg-R,151,electricity,4.0,6.0,3.0,5.0,1.0,2.0
+filtrado,reg-R,182,satimage,4.0,5.0,3.0,6.0,2.0,1.0
+filtrado,reg-R,183,abalone,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,reg-R,300,isolet,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-R,554,mnist_784,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-R,1053,jm1,4.0,6.0,3.0,5.0,1.0,2.0
+filtrado,reg-R,1120,MagicTelescope,4.0,6.0,3.0,5.0,2.0,1.0
+filtrado,reg-R,1461,bank-marketing,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-R,1476,gas-drift,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-R,1478,har,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-R,1486,nomao,4.0,6.0,3.0,5.0,2.0,1.0
+filtrado,reg-R,1489,phoneme,4.0,6.0,3.0,5.0,2.0,1.0
+filtrado,reg-R,1497,wall-robot-navigation,4.0,5.0,3.0,6.0,1.0,2.0
+filtrado,reg-R,1590,adult,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-R,4134,Bioresponse,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-R,4534,PhishingWebsites,3.0,6.0,4.0,5.0,2.0,1.0
+filtrado,reg-R,4538,GesturePhaseSegmentationProcessed,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-R,23517,numerai28.6,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-R,40668,connect-4,1.0,4.0,5.0,6.0,3.0,2.0
+filtrado,reg-R,40685,shuttle,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,reg-R,40701,churn,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-R,40996,Fashion-MNIST,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-R,41027,jungle_chess_2pcs_raw_endgame_complete,4.0,6.0,3.0,5.0,1.0,2.0
+filtrado,reg-R,41138,APSFailure,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,reg-R,41146,sylvine,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,reg-R,41150,MiniBooNE,3.0,6.0,4.0,5.0,2.0,1.0
+filtrado,reg-R,41168,jannis,3.0,4.0,5.0,6.0,2.0,1.0
+filtrado,HARRIS,6,letter,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,28,optdigits,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,30,page-blocks,4.0,5.0,3.0,6.0,1.0,2.0
+filtrado,HARRIS,32,pendigits,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,44,spambase,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,60,waveform-5000,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,151,electricity,4.0,5.0,3.0,6.0,1.0,2.0
+filtrado,HARRIS,182,satimage,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,183,abalone,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,HARRIS,300,isolet,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,554,mnist_784,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,1053,jm1,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,1120,MagicTelescope,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,1461,bank-marketing,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,1476,gas-drift,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,1478,har,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,1486,nomao,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,1489,phoneme,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,1497,wall-robot-navigation,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,1590,adult,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,4134,Bioresponse,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,4534,PhishingWebsites,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,4538,GesturePhaseSegmentationProcessed,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,23517,numerai28.6,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,40668,connect-4,3.0,4.0,5.0,6.0,2.0,1.0
+filtrado,HARRIS,40685,shuttle,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,HARRIS,40701,churn,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,40996,Fashion-MNIST,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,41027,jungle_chess_2pcs_raw_endgame_complete,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,HARRIS,41138,APSFailure,3.0,5.0,4.0,6.0,1.0,2.0
+filtrado,HARRIS,41146,sylvine,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,41150,MiniBooNE,3.0,5.0,4.0,6.0,2.0,1.0
+filtrado,HARRIS,41168,jannis,3.0,5.0,4.0,6.0,2.0,1.0

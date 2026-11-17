@@ -1,0 +1,6 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+3,1,0.8400000000000001,gradient_boosting,0.021226759457464568,1.3953778743743896,2,0.0023012216128099052,0,1794922135.6482573,1794922137.0621407,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Initial design
+10,2,0.10000000000000002,gradient_boosting,0.03635280994865795,1.3791508674621582,9,0.004857327285487476,0,1794922173.4574635,1794922174.8540668,0.0,StatusType.SUCCESS,[],['no_preprocessing'],weighting,Initial design
+2,3,0.060000000000000005,random_forest,0.05961090618825927,4.636749029159546,1,0.019135174661393018,0,1794922130.9476008,1794922135.6033306,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+4,4,0.0,random_forest,0.13373565786737254,3.2001852989196777,3,0.0,0,1794922137.2025926,1794922140.4217675,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+7,5,0.0,gradient_boosting,0.36775964696151264,4.340599775314331,6,0.12824924933283258,0,1794922154.7057939,1794922159.0590792,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Initial design

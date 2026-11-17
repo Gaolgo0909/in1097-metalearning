@@ -1,0 +1,12 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+18,1,0.02,gradient_boosting,0.7969331112916045,4.908132076263428,17,0.6549466000953272,0,1794870268.4361591,1794870273.3668325,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+14,2,0.38,mlp,0.798574106566406,26.98322820663452,13,0.6139809120956194,0,1794869969.1100934,1794869996.114739,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],none,Initial design
+17,3,0.12,gradient_boosting,0.8024569703047305,88.4735701084137,16,0.3210055738331319,0,1794870179.1700404,1794870267.6606743,0.0,StatusType.SUCCESS,[],['polynomial'],none,Initial design
+13,4,0.0,random_forest,0.8036967537096974,32.14813780784607,12,0.41905335155593704,0,1794869936.3972483,1794869968.5671515,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+11,5,0.18,random_forest,0.8043305600719935,17.65686321258545,10,0.19064764492986933,0,1794869876.3079705,1794869893.9948153,0.0,StatusType.SUCCESS,[],['liblinear_svc_preprocessor'],none,Initial design
+2,6,0.0,random_forest,0.8121693196872277,17.749922275543213,1,0.1970606313523169,0,1794869433.6737006,1794869451.450156,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+3,7,0.12,gradient_boosting,0.8320473063666599,5.742701768875122,2,0.5496867121193808,0,1794869451.5629349,1794869457.3283134,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Initial design
+5,8,0.0,random_forest,0.8504256139643434,38.268086433410645,4,0.08543744850198959,0,1794869469.4176173,1794869507.7126312,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Initial design
+4,9,0.0,random_forest,0.8743797781637334,11.67091679573059,3,0.0,0,1794869457.4732792,1794869469.1717203,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+8,10,0.18,gradient_boosting,0.8846636604990966,3.081456422805786,7,0.18486225204303366,0,1794869690.1652007,1794869693.266539,0.0,StatusType.SUCCESS,[],['no_preprocessing'],weighting,Initial design
+12,11,0.0,gradient_boosting,1.5783456972049508,41.81064248085022,11,1.1115158823788796e-05,0,1794869894.5091872,1794869936.3420024,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],weighting,Initial design

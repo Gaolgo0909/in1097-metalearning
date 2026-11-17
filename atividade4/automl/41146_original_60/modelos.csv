@@ -1,0 +1,9 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+10,1,0.66,mlp,0.01672886822301667,2.9333817958831787,9,0.004471312042836351,0,1794922289.8643517,1794922292.8126512,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Initial design
+2,2,0.2,random_forest,0.01958365745151336,4.259204864501953,1,0.0,0,1794922258.5532691,1794922262.8250287,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+7,3,0.08,extra_trees,0.026084229938905468,2.9761478900909424,6,1.1102230246251565e-16,0,1794922276.5341513,1794922279.5311494,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Initial design
+6,4,0.0,mlp,0.02839712270458783,2.587183713912964,5,0.009905422918007223,0,1794922273.6177578,1794922276.2280996,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+12,5,0.0,extra_trees,0.03267985281392838,2.9297947883605957,11,0.004453276141844875,0,1794922300.4890325,1794922303.4377487,0.0,StatusType.SUCCESS,[],['fast_ica'],none,Initial design
+8,6,0.0,mlp,0.03298357704107058,2.536369562149048,7,0.029611766621806757,0,1794922279.8524902,1794922282.4039423,0.0,StatusType.SUCCESS,[],['liblinear_svc_preprocessor'],weighting,Initial design
+3,7,0.04,libsvm_svc,0.3886981811507434,1.5937244892120361,2,0.36597230216075394,0,1794922262.866014,1794922264.4760475,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+4,8,0.02,gaussian_nb,0.4261272757466372,1.5772712230682373,3,0.442229682955384,0,1794922264.6769612,1794922266.2683027,0.0,StatusType.SUCCESS,[],['fast_ica'],weighting,Initial design

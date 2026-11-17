@@ -1,0 +1,8 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+3,1,0.92,passive_aggressive,0.7477990955496242,1.2078700065612793,2,0.7271244078659567,0,1794921768.764934,1794921769.9937682,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],none,Random Search (sorted)
+6,2,0.08,qda,0.9363923268562013,1.587885856628418,5,0.9346930404096397,0,1794921782.0892715,1794921783.6978438,0.0,StatusType.SUCCESS,[],['liblinear_svc_preprocessor'],none,Random Search (sorted)
+8,3,0.0,liblinear_svc,0.9533755567037698,1.2702553272247314,7,0.9486716945169132,0,1794921788.1699054,1794921789.4639065,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Random Search
+11,4,0.0,qda,0.9580295774747025,1.8411085605621338,10,0.9580896648786851,0,1794921804.5879245,1794921806.4524994,0.0,StatusType.SUCCESS,[],['kitchen_sinks'],weighting,Random Search (sorted)
+4,5,0.0,decision_tree,1.0753426602392486,1.0769078731536865,3,1.068305971540177,0,1794921771.830126,1794921772.9278307,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Random Search (sorted)
+7,6,0.0,k_nearest_neighbors,2.315924886343154,4.072465658187866,6,1.0919394818176307,0,1794921783.9795103,1794921788.0785058,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Random Search
+10,7,0.0,gaussian_nb,9.165583279667565,1.083150863647461,9,9.139031211300148,0,1794921801.3842568,1794921802.4844656,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Random Search (sorted)

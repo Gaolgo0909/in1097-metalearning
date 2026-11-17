@@ -1,0 +1,12 @@
+{
+ "variante": "original",
+ "orcamento": 60,
+ "semente": 1,
+ "metrica": "roc_auc",
+ "versao": "0.15.0",
+ "tempo_treino": 55.395430728000065,
+ "relogio_pulou": false,
+ "tempo_predicao": 0.2650029180003912,
+ "erro": "Traceback (most recent call last):\n  File \"automl_autosklearn.py\", line 73, in <module>\n    todos = modelo.leaderboard(detailed=True, ensemble_only=False)\n  File \".venv/lib/python3.9/site-packages/autosklearn/estimators.py\", line 1219, in leaderboard\n    {\n  File \".venv/lib/python3.9/site-packages/autosklearn/estimators.py\", line 1220, in <dictcomp>\n    col: [run_info[col] for run_info in model_runs.values()]\n  File \".venv/lib/python3.9/site-packages/autosklearn/estimators.py\", line 1220, in <listcomp>\n    col: [run_info[col] for run_info in model_runs.values()]\nKeyError: 'data_preprocessors'\n",
+ "cpu": 52.590096
+}

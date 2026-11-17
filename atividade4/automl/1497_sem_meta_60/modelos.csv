@@ -1,0 +1,12 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+9,1,0.74,random_forest,0.041253828922141356,4.422855854034424,8,0.03196611528726951,0,1794922157.11125,1794922161.5487978,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],none,Random Search (sorted)
+8,2,0.26,random_forest,0.044462295885510955,4.578660011291504,7,0.026936139034596827,0,1794922149.7875478,1794922154.3862598,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],weighting,Random Search
+2,3,0.0,random_forest,0.05961090618825927,4.8779120445251465,1,0.019135174661393018,0,1794922131.759733,1794922136.651785,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Default
+5,4,0.0,liblinear_svc,0.1767340125899854,1.6068222522735596,4,0.1073461307472982,0,1794922141.6414785,1794922143.2625449,0.0,StatusType.SUCCESS,[],['polynomial'],weighting,Random Search
+12,5,0.0,random_forest,0.25671841570552534,5.003291606903076,11,0.17819629061583103,0,1794922168.2359288,1794922173.2534356,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Random Search (sorted)
+7,6,0.0,libsvm_svc,0.5210407861792156,1.1235203742980957,6,0.47935990980032,0,1794922148.3225892,1794922149.4661942,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Random Search
+6,7,0.0,mlp,0.997545965861948,2.834974527359009,5,0.13404730019002792,0,1794922145.2251694,1794922148.0858803,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],weighting,Random Search (sorted)
+10,8,0.0,decision_tree,1.1755702419104384,1.0325334072113037,9,0.11679986278834589,0,1794922161.934233,1794922162.9828186,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],none,Random Search
+3,9,0.0,passive_aggressive,1.2724895161773433,0.7427666187286377,2,0.7727680062818786,0,1794922138.1742964,1794922138.9272902,0.0,StatusType.SUCCESS,[],['random_trees_embedding'],weighting,Random Search (sorted)
+11,10,0.0,decision_tree,1.2953774551398882,0.8537442684173584,10,1.2971073711852361,0,1794922163.4843106,1794922164.358974,0.0,StatusType.SUCCESS,[],['pca'],weighting,Random Search
+4,11,0.0,k_nearest_neighbors,6.639960116260193,0.9139728546142578,3,2.6924036896844616,0,1794922140.6712394,1794922141.5990946,0.0,StatusType.SUCCESS,[],['select_rates_classification'],weighting,Random Search (sorted)

@@ -1,0 +1,14 @@
+{
+ "variante": "original",
+ "orcamento": 900,
+ "semente": 1,
+ "metrica": "roc_auc",
+ "versao": "0.15.0",
+ "tempo_treino": 895.2760425469987,
+ "relogio_pulou": false,
+ "tempo_predicao": 1.2821343659998092,
+ "modelos_avaliados": 40,
+ "modelos_no_ensemble": 11,
+ "estatisticas": "auto-sklearn results:\n  Dataset name: 4300706b-e27e-11f1-aa6a-01a39a16b329\n  Metric: roc_auc\n  Best validation score: 0.928323\n  Number of target algorithm runs: 45\n  Number of successful target algorithm runs: 40\n  Number of crashed target algorithm runs: 0\n  Number of target algorithms that exceeded the time limit: 5\n  Number of target algorithms that exceeded the memory limit: 0\n",
+ "cpu": 891.803882
+}

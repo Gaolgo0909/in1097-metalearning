@@ -1,0 +1,13 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+4,1,0.6,gradient_boosting,0.023272423372198925,6.289919137954712,3,0.0,0,1794920052.6346693,1794920058.94216,0.0,StatusType.SUCCESS,[],['select_rates_classification'],none,Initial design
+6,2,0.0,gradient_boosting,0.023540339080373895,5.870973825454712,5,1.0345855037119378e-06,0,1794920061.7622247,1794920067.659522,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+8,3,0.4,gradient_boosting,0.026787662232910403,3.0102055072784424,7,0.0,0,1794920099.1736944,1794920102.2062557,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Initial design
+17,4,0.0,extra_trees,0.026946492898101693,10.259246110916138,16,0.0,0,1794920231.7353966,1794920242.0178556,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],weighting,Initial design
+18,5,0.0,gradient_boosting,0.028757944198203766,1.5953788757324219,17,0.0020069234461904673,0,1794920243.0770469,1794920244.6884198,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],weighting,Initial design
+2,6,0.0,random_forest,0.02985696712311825,17.73618769645691,1,0.0,0,1794920003.5241394,1794920021.2894957,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+11,7,0.0,random_forest,0.03624821359917407,21.8157742023468,10,0.0,0,1794920138.304296,1794920160.1449263,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],weighting,Initial design
+9,8,0.0,extra_trees,0.04433969437711027,3.9633493423461914,8,0.03153088996424469,0,1794920102.697338,1794920106.6804106,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],none,Initial design
+13,9,0.0,passive_aggressive,0.044899332626945565,1.7287216186523438,12,0.04285701476560422,0,1794920191.899743,1794920193.647954,0.0,StatusType.SUCCESS,[],['fast_ica'],weighting,Initial design
+14,10,0.0,liblinear_svc,0.07815890030906258,3.564854145050049,13,0.0720706056325594,0,1794920194.4311357,1794920198.0194824,0.0,StatusType.SUCCESS,[],['kitchen_sinks'],weighting,Initial design
+5,11,0.0,libsvm_svc,0.11976969198221377,2.250617027282715,4,0.121909520669639,0,1794920059.1898072,1794920061.457766,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+15,12,0.0,qda,0.16506770023856576,0.7298374176025391,14,0.17015957101946677,0,1794920198.9263268,1794920199.6700208,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design

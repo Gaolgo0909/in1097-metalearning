@@ -1,0 +1,3 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+3,1,1.0,random_forest,0.26010661986596156,6.010826110839844,2,0.0,0,1794921912.9252872,1794921918.97215,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],weighting,Initial design
+2,2,0.0,random_forest,0.2771821617051735,5.2814717292785645,1,0.07001147045955512,0,1794921907.5317595,1794921912.8430247,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design

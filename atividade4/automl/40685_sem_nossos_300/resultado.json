@@ -1,0 +1,14 @@
+{
+ "variante": "sem_nossos",
+ "orcamento": 300,
+ "semente": 1,
+ "metrica": "log_loss",
+ "versao": "0.15.0",
+ "tempo_treino": 299.43675472599716,
+ "relogio_pulou": false,
+ "tempo_predicao": 0.2948783630017715,
+ "modelos_avaliados": 37,
+ "modelos_no_ensemble": 2,
+ "estatisticas": "auto-sklearn results:\n  Dataset name: cf701aad-e288-11f1-a4e3-b7952e99f43e\n  Metric: log_loss\n  Best validation score: 0.003139\n  Number of target algorithm runs: 38\n  Number of successful target algorithm runs: 37\n  Number of crashed target algorithm runs: 0\n  Number of target algorithms that exceeded the time limit: 1\n  Number of target algorithms that exceeded the memory limit: 0\n",
+ "cpu": 298.588191
+}

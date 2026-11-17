@@ -1,0 +1,13 @@
+model_id,rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+4,1,0.22,gradient_boosting,0.08944916536386105,15.860406637191772,3,0.02685444706163953,0,1794872494.1708252,1794872510.1246161,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+7,2,0.12,gradient_boosting,0.09183991880578957,9.686975002288818,6,0.028040118597741692,0,1794872660.5224693,1794872670.2805686,0.0,StatusType.SUCCESS,[],['polynomial'],none,Initial design
+2,3,0.08,random_forest,0.0985307188965655,73.00419163703918,1,0.0,0,1794872376.481938,1794872449.8055859,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+6,4,0.0,gradient_boosting,0.09972924756669532,56.14126181602478,5,0.0006509531732390439,0,1794872602.8313854,1794872659.0599403,0.0,StatusType.SUCCESS,[],['polynomial'],weighting,Initial design
+13,5,0.22,liblinear_svc,0.10595789311109993,12.953133821487427,12,0.10715549522051249,0,1794872919.5529516,1794872932.6760507,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Initial design
+15,6,0.0,extra_trees,0.10980524106107215,63.85162854194641,14,0.0975475793240449,0,1794873048.9176824,1794873113.2900789,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_classification'],none,Initial design
+11,7,0.0,random_forest,0.11351232727318572,62.17622137069702,10,0.0,0,1794872784.4652367,1794872846.7592773,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],weighting,Initial design
+12,8,0.0,gradient_boosting,0.11644403399061987,58.234031200408936,11,0.050275474588833746,0,1794872852.6447392,1794872910.9839065,0.0,StatusType.SUCCESS,[],['polynomial'],none,Initial design
+8,9,0.0,sgd,0.12067552574512075,13.483960628509521,7,0.11031257031680297,0,1794872680.1015615,1794872693.8329108,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design
+3,10,0.02,gradient_boosting,0.12850614945282157,40.09213638305664,2,0.018516606761769028,0,1794872451.4787135,1794872492.0418015,0.0,StatusType.SUCCESS,[],['select_percentile_classification'],none,Initial design
+10,11,0.18,libsvm_svc,0.1292803469665641,52.02482271194458,9,0.1027412488856847,0,1794872718.9914784,1794872771.0876765,0.0,StatusType.SUCCESS,[],['feature_agglomeration'],none,Initial design
+9,12,0.16,qda,0.15334153890766045,12.34261679649353,8,0.1499637435332437,0,1794872698.8924992,1794872711.398449,0.0,StatusType.SUCCESS,[],['no_preprocessing'],none,Initial design

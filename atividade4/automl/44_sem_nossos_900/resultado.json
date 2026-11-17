@@ -1,0 +1,14 @@
+{
+ "variante": "sem_nossos",
+ "orcamento": 900,
+ "semente": 1,
+ "metrica": "roc_auc",
+ "versao": "0.15.0",
+ "tempo_treino": 899.8405269690011,
+ "relogio_pulou": false,
+ "tempo_predicao": 0.7502708629999688,
+ "modelos_avaliados": 41,
+ "modelos_no_ensemble": 13,
+ "estatisticas": "auto-sklearn results:\n  Dataset name: f063ccd1-e279-11f1-93cd-f562d5425240\n  Metric: roc_auc\n  Best validation score: 0.985321\n  Number of target algorithm runs: 47\n  Number of successful target algorithm runs: 41\n  Number of crashed target algorithm runs: 0\n  Number of target algorithms that exceeded the time limit: 6\n  Number of target algorithms that exceeded the memory limit: 0\n",
+ "cpu": 894.5527510000001
+}
